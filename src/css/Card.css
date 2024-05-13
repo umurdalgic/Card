@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-container{
+  margin: 5px;
+  margin-left: 10px;
+  width: 300px;
+  border-left: 1px solid black;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.card-header{
+  border:1px solid black;
+  border-left: none;
+  border-bottom: none;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  padding-left: 10px;
+  width: 50%;
+  height: 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.form-body{
+  border:1px solid black;
+  border-left: 0px;
+  border-radius: 5px;
+  height: 450px;
+  width: 300px;
+  padding: 10px;
+}
+
+  .form-title {
+    font-size: 18px;
+    font-weight: bold;
+    border:none;
+    color: chocolate;
+    margin-bottom: 0;
+    outline: none;
+  }
+
+ 
+  .form-content {
+    border:none;
+    width: 100%;
+    resize: none;
+    color: black;
+    background-color:white;
+  }
+ 
+
+  .submitButton {
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    border: none;
+  }
+  .submit{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2px;
+  }
+  .submitButton.disabled {
+    cursor: not-allowed;
+    background-color: lightgrey;
+    border: none;
+  }
+  .data-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 5px;
+    
+  }
+  hr{
+    border: 5px solid lightgray;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
